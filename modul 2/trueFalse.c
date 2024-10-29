@@ -7,7 +7,7 @@ int main(){
     bool flagTrue = true; //perbaiki boolean menjadi bool :)
     bool flagFalse = false;
 
-    printf("\n\n============ CODELAB 2 EXECUTION STARTED ===========\n\n");
+    printf("\n============ CODELAB 2 EXECUTION STARTED ===========\n\n");
 
     printf("Boolean values demonstration: \n");
     printf("flagTrue: %d\n", flagTrue);
@@ -16,7 +16,7 @@ int main(){
     // String operations
     char greeting[] = "Hello, World!";
     char copyGreeting[20];
-    strcat(copyGreeting, greeting); //gunakan strcat (concat) dan bukan stringcopy :)
+    strcpy(copyGreeting, greeting); 
 
     printf("\nString operations demonstration: \n");
     printf("Original greeting: %s\n", greeting); // not string1 but greeting

@@ -2,10 +2,14 @@
 #include <string.h>
 #include <stdint.h>
 
+// EDISI REVISI KONSTANTA INT BATAS KALORI
+
 int main(){
 
     int makananPertama, makananKedua, makananKetiga;
     int totalKalori;
+    const int batasKalori = 2500;
+
 
     printf("\n\n============ CODELAB 1 EXECUTION STARTED ===========\n\n");
 
@@ -24,7 +28,7 @@ int main(){
 
     if (totalKalori < 2000) {
     printf(">> Anda kekurangan kalori. <<");
-    } else if (totalKalori >= 2000 && totalKalori < 2500) {
+    } else if (totalKalori >= 2000 && totalKalori == batasKalori) {
     printf(">> Kebutuhan kalori sudah terpenuhi. <<");
     } else {  // otomatis mencakup kasus >= 2500
     printf(">> Anda kelebihan kalori. <<");
