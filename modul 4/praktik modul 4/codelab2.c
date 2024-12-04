@@ -8,7 +8,7 @@ int main() {
 
     printf("\n=== Codelab 2 Execution Started ===\n\n");
     printf("Masukkan sebuah string: ");
-    fgets(kata, sizeof(kata), stdin);
+    fgets(kata, sizeof(kata), stdin); //menghindari buffer & lebih aman
 
     printf("\nKarakter unik dalam string: ");
     

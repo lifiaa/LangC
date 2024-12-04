@@ -19,10 +19,15 @@ int main(){
             total += transaksi;
         }
         printf("\nTotal transaksi: %d\n", total);
+        
         printf("Apakah Anda ingin melanjutkan transaksi? (1=Ya /0=Tidak): ");
         scanf("%d", &pilihan);
+
     }while(pilihan == 1);
+
     printf("=== Pencatatan transaksi selesai ===");
+
     printf("\n\n============ ACTIVITY 1 EXECUTION END ===========\n\n");
+
     return 0;
     }

@@ -7,7 +7,8 @@ int main(){
     for(int i = 0; i < 3; i++){
         total[i] = toko[0][i] + toko[1][i];
     }
-
+    
+    printf("\n=== CODELAB 1 EXCUTION STARTED ===\n\n");
     printf("\n\nTotal penjualan untuk setiap produk: \n\n");
     printf("Produk A: %d\n", total[0]);
     printf("Produk B: %d\n", total[1]);

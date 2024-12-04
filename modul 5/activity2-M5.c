@@ -5,7 +5,7 @@ int main(){
     int input;
     float rataMatematika = 0, rataFisika = 0, rataKimia = 0;
 
-    printf("\n\n=== ACTIVITY 1 EXECUTION STARTED ===\n\n");
+    printf("\n\n=== ACTIVITY 2 EXECUTION STARTED ===\n\n");
 
     printf("Masukkan jumlah mahasiswa: ");
     scanf("%d", &input);
